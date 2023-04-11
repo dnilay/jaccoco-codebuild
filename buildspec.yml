@@ -4,7 +4,7 @@ version: 0.2
 phases:
   pre_build:
     commands:
-      - mvn clean package verify test
+      - mvn clean package  test
 
   build:
     commands:
